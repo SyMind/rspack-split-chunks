@@ -1,0 +1,12 @@
+{
+  "name": "disable-split-chunks",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "base": "NODE_ENV=production rspack build -c base.config.js"
+  },
+  "devDependencies": {
+    "@rspack/cli": "0.4.0",
+    "@rspack/core": "0.4.0"
+  }
+}
