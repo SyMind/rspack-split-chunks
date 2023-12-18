@@ -3,7 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "base": "NODE_ENV=production rspack build -c base.config.js"
+    "base": "NODE_ENV=production rspack build -c base.config.js",
+    "sol1": "NODE_ENV=production rspack build -c sol1.config.js"
   },
   "devDependencies": {
     "@rspack/cli": "0.4.0",
