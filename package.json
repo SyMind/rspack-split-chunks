@@ -3,11 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "base": "NODE_ENV=production rspack build -c base.config.js",
-    "sol1": "NODE_ENV=production rspack build -c sol1.config.js"
+    "rspack-base": "NODE_ENV=production rspack build -c base.config.js",
+    "rspack-sol1": "NODE_ENV=production rspack build -c sol1.config.js",
+    "webpack-base": "NODE_ENV=production webpack build -c base.config.js",
+    "webpack-sol1": "NODE_ENV=production webpack build -c sol1.config.js"
   },
   "devDependencies": {
     "@rspack/cli": "0.4.0",
-    "@rspack/core": "0.4.0"
+    "@rspack/core": "0.4.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
