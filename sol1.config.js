@@ -5,7 +5,7 @@ module.exports = {
 	},
 	devtool: false,
 	optimization: {
-		// Instruct webpack not to obfuscate the resulting code
+		// 命令 webpack 不要压缩生成的代码
 		minimize: false,
 		splitChunks: {
             minSize: 0,
