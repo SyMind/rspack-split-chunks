@@ -7,10 +7,12 @@
     "rspack-sol1": "NODE_ENV=production rspack build -c sol1.config.js",
     "rspack-sol2": "NODE_ENV=production rspack build -c sol2.config.js",
     "rspack-sol3": "NODE_ENV=production rspack build -c sol3.config.js",
+    "rspack-sol4": "NODE_ENV=production rspack build -c sol4.config.js",
     "webpack-base": "NODE_ENV=production webpack build -c base.config.js",
     "webpack-sol1": "NODE_ENV=production webpack build -c sol1.config.js",
     "webpack-sol2": "NODE_ENV=production webpack build -c sol2.config.js",
-    "webpack-sol3": "NODE_ENV=production webpack build -c sol3.config.js"
+    "webpack-sol3": "NODE_ENV=production webpack build -c sol3.config.js",
+    "webpack-sol4": "NODE_ENV=production webpack build -c sol4.config.js"
   },
   "devDependencies": {
     "@rspack/cli": "0.5.0",
